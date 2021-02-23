@@ -27,3 +27,26 @@ Seeking to apply my graphic design ideas in Web Development.
 * Stress-resistance
 * Communication 	
 * Responsibility
+
+
+## Code examples:
+```
+//Coming Soon!
+```
+
+## Experience: 
+
+    learn.javascript.ru
+    www.w3schools.com
+    Codewars.com
+    github.com/vainila
+
+
+## Education:
+1. Minsk radio engineering college (2016 – 2020)   
+2. BSUIR (2020 - ...)
+
+## English:
+B1 
+
+
