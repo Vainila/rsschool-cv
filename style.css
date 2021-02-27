@@ -1,0 +1,222 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+} */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+
+h1,h2{
+    margin: 0;    
+}
+body{
+    padding:0;
+    margin:0;
+    overflow:hidden;
+    height: 100vh;
+    width: 100vw;
+    background: url(img/landscape.jpg) ;
+    
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-y: -5em;
+    font-family:Montserrat;
+    color: white;
+    
+}
+
+.page{
+    height: 100vh;
+    width: 50vw;
+    margin: auto;
+    display:block;
+    background: rgba(116, 116, 116, 0.2);
+    mix-blend-mode: normal;
+    backdrop-filter: blur(15px);
+}
+
+.header{
+    padding-right:2em;
+    display:flex;
+    background: rgba(0, 0, 0, 0.35);
+    height: 13vh;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items:flex-end;
+    justify-content: center;
+}
+.header h1{
+    
+    font-size: 3vw;
+    font-weight: 500;
+    color: white;
+}
+
+h2{
+font-style: normal;
+font-weight: 500;
+text-align: justify;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+padding-top: 0.5em;
+}
+.header h2{
+    padding-top: 0.1em;
+    font-size: 2vw;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.60)
+}
+
+.photo{
+    
+    position: absolute;
+    width: 13vw;
+    box-sizing: border-box;
+    left: 2em;
+    top: 1.8em;    
+    border-radius: 15px;    
+}
+
+.main{
+    display: flex;
+    
+    justify-content: space-between;
+}
+.left-panel{
+    margin-left: 2em;
+    margin-top: 11.1vh;   
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.right-panel{
+    margin-top: 3vh;
+    margin-right: 2em;
+    width: 30vw;  
+}
+
+.skills, .experience, .summary p, code, .education ul, .english p{
+    width: 13vw;
+    background: rgba(255, 255, 255, 0.09);
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: 17px;    
+}
+
+.summary, .code-example{
+display:flex;
+flex-direction: column;
+text-align:justify;
+}
+.summary p, code{
+    width: 28vw;
+    padding: 1vh 1vw 1vh 1vw;
+    line-height: 30px;
+    color: #e7e7e7;
+    font-size: 18px;
+    margin: 0;
+
+    
+}
+code{
+    display:block;
+    margin: 0;
+    line-height: 1.2em;
+    padding: 0vh 1vw
+}
+
+.ed-eng{
+    display:flex;
+    justify-content: space-between;
+    
+}
+.education ul, .english p{    
+    height: 9vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;    
+    margin-top: 0;
+}
+.english p{
+    align-items: center;
+}
+
+
+
+.left-panel h2, .right-panel h2{
+    text-align:justify;
+    padding-left: 0.4em;    
+    color: white;
+    font-weight: 400;
+    margin: 0.3em 0;
+}
+
+
+
+
+.skills ul, .experience ul{    
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: baseline;
+    
+    
+}
+.skills ul li {
+    padding: 0.2em 1em;
+    background: rgba(0, 0, 0, 0.12);     
+    border-radius: 15px;
+    margin: 0.7em 0.5em;
+    letter-spacing: 0.095em;
+}
+
+.experience ul li{
+    padding: 0.7em;
+}
+a{
+    color:white;
+    text-decoration: none;
+    
+}
+
+
+
+ .contact ul{
+    display: flex;
+    justify-content:space-evenly;
+    
+    list-style: none;
+
+    background: rgba(255, 255, 255, 0.09);
+    border: 1px solid rgba(255, 255, 255, 0.09);
+      
+    
+    line-height: 1.3em;
+    color: #e7e7e7;
+    font-size: 18px;
+    margin: 0;
+    padding-left:0;
+    
+}
+.contact h2{
+
+    margin-left: 1.8em;
+    margin-bottom: 0.1em;
+    
+}
+.contact ul li{
+    padding: 0.2em 0; 
+}
+.footer{
+    position:absolute;
+    width:100%;
+    bottom:0px;
+}
+
