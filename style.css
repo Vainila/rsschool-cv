@@ -13,7 +13,7 @@ h1,h2{
     margin: 0;    
 }
 body{
-    padding:0;
+    
     margin:0;
     overflow:hidden;
     height: 100vh;
@@ -21,10 +21,13 @@ body{
     background: url(img/landscape.jpg) ;
     
     background-repeat: no-repeat;
+    
     background-size:cover;
-    background-position-y: -5em;
+    
     font-family:Montserrat;
     color: white;
+    background-position-y: -5em;
+    padding-bottom: 5em;
     
 }
 
