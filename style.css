@@ -42,7 +42,7 @@ body{
     
 }
 
-.header{
+header{
     padding-right:2em;
     display:flex;
     background: rgba(0, 0, 0, 0.35);
@@ -52,7 +52,7 @@ body{
     align-items:flex-end;
     justify-content: center;
 }
-.header h1{
+header h1{
     
     font-size: 3vw;
     font-weight: 500;
@@ -67,7 +67,7 @@ letter-spacing: 0.05em;
 color: #FFFFFF;
 padding-top: 0.5em;
 }
-.header h2{
+header h2{
     padding-top: 0.1em;
     font-size: 2vw;
     font-weight: 400;
@@ -84,7 +84,7 @@ padding-top: 0.5em;
     border-radius: 15px;    
 }
 
-.main{
+main{
     display: flex;
     flex-wrap: nowrap; 
     flex-grow: initial; 
@@ -185,6 +185,8 @@ pre{
     align-items: baseline;
     
     
+
+    
 }
 .skills ul li {
     padding: 0.2em 1em;
@@ -231,7 +233,7 @@ a{
 .contact ul li{
     padding: 0.2em 1em; 
 }
-.footer{   
+footer{   
     width:50vw;
 }
 
